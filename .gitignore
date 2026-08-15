@@ -1,0 +1,12 @@
+# Ignorar pastas de logs
+logs/
+
+# Ignorar executáveis e arquivos compactados
+*.exe
+*.zip
+
+# Ignorar módulos do Node (como vi que tem o ecossystem.js e pm2)
+node_modules/
+
+# Ignorar arquivos de variáveis de ambiente (senhas e chaves)
+.env
